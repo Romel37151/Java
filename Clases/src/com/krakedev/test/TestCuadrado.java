@@ -1,4 +1,6 @@
-package com.krakedev;
+package com.krakedev.test;
+
+import com.krakedev.Cuadrado;
 
 public class TestCuadrado {
 
@@ -15,9 +17,9 @@ public class TestCuadrado {
 		double calcularPerimetroCuadrado3;
 		
 		
-		c1.lado=8;
-		c2.lado=9;
-		c3.lado=6;
+		c1.setLado(8);
+		c2.setLado(9);
+		c3.setLado(6);
 		calcularAreaCuadrado1=c1.calularArea();
 		calcularPerimetroCuadrado1=c1.calcularPerimetro();
 		
