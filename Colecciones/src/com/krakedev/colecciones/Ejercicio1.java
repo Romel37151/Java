@@ -12,6 +12,7 @@ public class Ejercicio1 {
 		cadenas = new ArrayList<String> ();
 		cadenas.add("dos"); // con .add se agregan elementos al Array list
 		cadenas.add("cuantro");
+		cadenas.add("cuantro");
 		valorRecuperado=cadenas.get(0);//recupera la variable en dicha posicion
 		
 		for(int i=0;i<cadenas.size();i++) {
